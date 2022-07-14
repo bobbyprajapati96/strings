@@ -7,7 +7,7 @@ public class toggleCharacters {
         for(int i=0;i<s1.length();i++)
         {
           if(Character.isUpperCase(s1.charAt(i))){
-              s+=s+Character.toLowerCase(s1.charAt(i));
+              s+=Character.toLowerCase(s1.charAt(i));
           }
           else
               s=s+Character.toUpperCase(s1.charAt(i));
